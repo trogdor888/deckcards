@@ -502,11 +502,9 @@ export default function CardDetail({ card, onClose, onNavigate, relatedCards }: 
               {/* Card with enhanced styling for default card and center card */}
               <div 
                 className={`relative w-48 h-48 rounded-2xl overflow-hidden backdrop-blur-xl cursor-pointer hover:scale-105 select-none ${
-                  isCenterCard 
-                    ? 'border-4 border-yellow-400/80 shadow-2xl shadow-yellow-400/40' // Center card gets special golden border and glow
-                    : isDefaultCard 
-                      ? 'border-2 border-white/40 shadow-2xl shadow-white/20' // Default card gets special border and glow
-                      : 'border border-white/20 shadow-xl shadow-black/40'     // Other cards get standard styling
+                  isDefaultCard 
+                    ? 'border-2 border-white/40 shadow-2xl shadow-white/20' // Default card gets special border and glow
+                    : 'border border-white/20 shadow-xl shadow-black/40'     // Other cards get standard styling
                 }`}
                 style={{
                   transform: `scale(${finalScale})`,

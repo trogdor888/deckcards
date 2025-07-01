@@ -1,0 +1,24 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="geomGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#795548;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="12" fill="url(#geomGrad)"/>
+  <g fill="white" opacity="0.9">
+    <!-- Compass -->
+    <line x1="40" y1="15" x2="40" y2="35" stroke="white" stroke-width="2"/>
+    <line x1="40" y1="15" x2="55" y2="30" stroke="white" stroke-width="2"/>
+    <circle cx="40" cy="15" r="2" fill="white"/>
+    <circle cx="55" cy="30" r="1.5" fill="white"/>
+    <!-- Geometric shapes -->
+    <polygon points="20,45 30,45 25,35" stroke="white" stroke-width="1.5" fill="none"/>
+    <rect x="45" y="40" width="15" height="15" stroke="white" stroke-width="1.5" fill="none"/>
+    <circle cx="30" cy="60" r="8" stroke="white" stroke-width="1.5" fill="none"/>
+    <polygon points="50,60 55,70 45,70" stroke="white" stroke-width="1.5" fill="none"/>
+    <!-- Angle arc -->
+    <path d="M50,45 Q55,50 50,55" stroke="white" stroke-width="1" fill="none"/>
+    <text x="52" y="52" font-family="serif" font-size="8">θ</text>
+  </g>
+</svg> 

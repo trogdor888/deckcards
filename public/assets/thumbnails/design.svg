@@ -1,0 +1,22 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="designGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e91e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c2185b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="12" fill="url(#designGrad)"/>
+  <g fill="white" opacity="0.9">
+    <!-- Pen tool -->
+    <path d="M25,55 L35,45 L40,50 L30,60 Z" fill="white"/>
+    <line x1="35" y1="45" x2="50" y2="30" stroke="white" stroke-width="2"/>
+    <circle cx="50" cy="30" r="3" fill="white"/>
+    <!-- Design elements -->
+    <rect x="45" y="15" width="20" height="20" rx="2" stroke="white" stroke-width="1.5" fill="none"/>
+    <circle cx="20" cy="25" r="8" stroke="white" stroke-width="1.5" fill="none"/>
+    <polygon points="55,50 65,50 60,65" stroke="white" stroke-width="1.5" fill="none"/>
+    <!-- Grid lines -->
+    <line x1="15" y1="70" x2="65" y2="70" stroke="white" stroke-width="0.5" opacity="0.5"/>
+    <line x1="70" y1="15" x2="70" y2="65" stroke="white" stroke-width="0.5" opacity="0.5"/>
+  </g>
+</svg> 

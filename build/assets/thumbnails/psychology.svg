@@ -1,0 +1,24 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="psychGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9c27b0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7b1fa2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="12" fill="url(#psychGrad)"/>
+  <g fill="white" opacity="0.9">
+    <!-- Brain -->
+    <path d="M25,35 Q20,30 25,25 Q30,20 35,25 Q40,20 45,25 Q50,20 55,25 Q60,30 55,35 Q60,40 55,45 Q60,50 55,55 Q50,60 45,55 Q40,60 35,55 Q30,60 25,55 Q20,50 25,45 Q20,40 25,35 Z" stroke="white" stroke-width="1.5" fill="none"/>
+    <!-- Brain details -->
+    <path d="M30,30 Q35,25 40,30 Q45,25 50,30" stroke="white" stroke-width="1" fill="none"/>
+    <path d="M30,40 Q35,35 40,40 Q45,35 50,40" stroke="white" stroke-width="1" fill="none"/>
+    <path d="M30,50 Q35,45 40,50 Q45,45 50,50" stroke="white" stroke-width="1" fill="none"/>
+    <!-- Thought bubble -->
+    <circle cx="60" cy="20" r="6" stroke="white" stroke-width="1.5" fill="none"/>
+    <circle cx="55" cy="15" r="2" fill="white"/>
+    <circle cx="52" cy="12" r="1" fill="white"/>
+    <!-- Light bulb in thought -->
+    <circle cx="60" cy="20" r="3" stroke="white" stroke-width="1" fill="none"/>
+    <rect x="58" y="22" width="4" height="2" fill="white"/>
+  </g>
+</svg> 

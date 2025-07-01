@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure all containers are transparent */
+html, body, #root {
+  background: transparent !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS Variables */
+:root {
+  --card-gap: 1.5rem;
+  --grid-padding: 2rem 3rem;
+}
+
+/* Remove conflicting styles - all InfiniteCanvas styles are now in InfiniteCanvas.css */ 

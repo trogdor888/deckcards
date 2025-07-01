@@ -1,0 +1,21 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="travelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00bcd4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0097a7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="12" fill="url(#travelGrad)"/>
+  <g fill="white" opacity="0.9">
+    <!-- Airplane -->
+    <path d="M25,40 L35,35 L50,25 L55,30 L45,35 L50,40 L55,45 L50,50 L45,45 L35,50 L25,45 Z" stroke="white" stroke-width="1.5" fill="white" opacity="0.8"/>
+    <circle cx="40" cy="40" r="2" fill="white"/>
+    <!-- Compass -->
+    <circle cx="60" cy="60" r="12" stroke="white" stroke-width="1.5" fill="none"/>
+    <path d="M60,50 L60,70 M50,60 L70,60" stroke="white" stroke-width="1"/>
+    <text x="57" y="54" font-family="serif" font-size="6">N</text>
+    <polygon points="60,55 62,60 60,58 58,60" fill="white"/>
+    <!-- Flight path -->
+    <path d="M20,20 Q30,15 40,20 Q50,25 60,20 Q70,15 75,25" stroke="white" stroke-width="1" stroke-dasharray="2,2" fill="none"/>
+  </g>
+</svg> 

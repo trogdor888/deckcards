@@ -1,0 +1,23 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="langGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ea4335;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d33b2c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="12" fill="url(#langGrad)"/>
+  <g fill="white" opacity="0.9">
+    <!-- Speech bubble 1 -->
+    <ellipse cx="30" cy="25" rx="15" ry="10" stroke="white" stroke-width="1.5" fill="none"/>
+    <polygon points="25,32 20,40 30,35" fill="white"/>
+    <!-- Speech bubble 2 -->
+    <ellipse cx="50" cy="45" rx="12" ry="8" stroke="white" stroke-width="1.5" fill="none"/>
+    <polygon points="55,50 60,58 50,53" fill="white"/>
+    <!-- Text symbols -->
+    <text x="25" y="28" font-family="serif" font-size="8">ABC</text>
+    <text x="45" y="48" font-family="serif" font-size="7">文字</text>
+    <!-- Globe symbol -->
+    <circle cx="40" cy="65" r="8" stroke="white" stroke-width="1.5" fill="none"/>
+    <path d="M32,65 Q40,55 48,65 M32,65 Q40,75 48,65 M32,60 L48,60 M32,70 L48,70" stroke="white" stroke-width="1" fill="none"/>
+  </g>
+</svg> 
